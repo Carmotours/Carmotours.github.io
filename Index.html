@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Free Tour Carmona </title>
+		<link rel="stylesheet" href="estilocss.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+	
+	<body>
+	<div class="pagina">
+	<div id="Titulo"><h1> Free Tour Carmona </h1>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Tours</a>
+				<ul id="tours">
+					<li><a href="Articulo1.html">Casco antiguo Carmona</a></li>
+					<li><a href="Articulo2.html">Necrópolis Carmona </a></li>
+					<li><a href="Articulo3.html">Tour privado</a></li>
+					<li><a href="Articulo4.html">Visita Sevilla</a></li>
+				</ul></li>
+			<li><a href="">Quienes somos</a></li>
+			<li><a href="Formulario.html">Reserva</a></li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</nav><br>
+
+	<div id="Texto">
+		<div id="Centro">
+			<div id="Intro">
+			<h3 class="Titulo" >Conoce la ciudad de Carmona</h3>
+			<p id="info"><b>Somos una empresa de Free Tours en la que Guías turísticos profesionales formados en la universidad en Historia e Historia del arte te llevarán a descubrir los lugares más interesantes e imprescindibles de una forma cercana y dinámica. Nuestro compromiso es hacer sentir cómodas a las personas que nos acompañan y, sobre todo, que disfruten de nuestras visitas guiadas. 
+				Paga sólo lo que creas conveniente al finalizar el tour, tú eres quien elige según tus posibilidades y según el grado de satisfacción de la experiencia.</b></p>
+			</div><br>
+
+		<div id="Tipos"> 
+			<a href="Articulo1.html"><img id="Carmo" src="Imagenes/Carmona_(2).jpg" width="200px" height="200px" alt="Carmona"></a>
+			<a href="Articulo2.html"><img id="Necropolis" src="Imagenes/La-Necropolis-Romana-de-Carmona.jpg" width="200px" height="200px" alt="Necrópolis"></a>
+			<a href="Articulo3.html"><img id="Privada" src="Imagenes/carmona.jpg" width="200px" height="200px" alt="Privada"></a>
+			<a href="Articulo4.html"><img id="Sevilla" src="Imagenes/SE_Catedral_01.jpg" width="200px" height="200px" alt="Sevilla"></a>
+		</div>
+		<div id="Nosotros">
+			<h3>Nosotros</h3>
+		</div>
+		<div id="Contacta">
+			<p>Resuelve tus dudas</p>
+		</div></div>
+		<div id="Reserva">
+			<table>
+				<form id="formulario" action="mailto:cris.mr1992@gmail.com" method="post">
+				<br><tr><td><label id="nombre">Nombre y Apellidos:</td> <td><input type="text"  placeholder="Introduzca su nombre y apellidos" required /><span id="obligatorio">* Campos obligatorios</span></tr></td></tr>
+				<br><tr><td><label id="Email">Email:</td> <td><input type="email"  placeholder= "Introduzca su email" required /><span id="obligatorio">* Campos obligatorios</span></td></tr>
+				<br><tr><td><label id="Fecha">Fecha: </td> <td><input type="date"  placeholder= "Introduzca la fecha deseada" required /><span id="obligatorio">* Campos obligatorios</span></td></tr>
+				<br><br><tr><td><label id="Tour">Tour deseado: </td> <td>
+					<div><input type="radio" value="Tour Carmona" > <label for="Tour Casco Antiguo de Carmona">Tour Casco Antiguo de Carmona</label></div>
+					<div><input type="radio" value="Necrópolis" > <label for="Necrópolis">Necrópolis Romana de Carmona</label></div>
+					<div><input type="radio" value="Tour privado Carmona" > <label for="Tour privado Carmona">Tour privado Carmona</label></div>
+					<div><input type="radio" value="Tour Sevilla" > <label for="Tour Sevilla">Tour Sevilla</label></div><br><br></td></tr>
+				<br><br><tr><td><label id="Horario">Hora deseada: </td> <td>
+					<div><input type="radio" value="9:00" > <label for="9:00">9:00</label></div>
+					<div><input type="radio" value="12:00" > <label for="12:00">12:00</label></div>
+					<div><input type="radio" value="19:00" > <label for="19:00">19:00</label></div><br><br></td></tr>
+				<br><tr><td><label id="Tlf">Telefono: </td> <td><input type="tel"  placeholder= "Introduzca su numero de telefono" required pattern="([0-9]{9})"/><span id="obligatorio">* Campos obligatorios</span></td></tr>
+				<br><tr><td><label id="Personas">Número de personas: </td> <td><input type="number" min="1" max="30" required></label><span id="obligatorio">* Campos obligatorios</span></td></tr>
+				<br><tr><td><input type="reset" value = "Borrar" /> </td> <td><input type="submit" value = "Enviar" /><br></td></tr>
+				<tr><td><p>¡¡Muchas Gracias!!<br> Confirmaremos su reserva por email </p></td></tr></table>
+		</div>
+	</div>
+	<div id="Lateral">
+	<p class="Redes"><b>¡Siguenos en redes sociales!</b><br><br>
+		<i class=""fa-brands fa-twitter fa-2xs" style="color: #0000;">"</i><br>
+		<img id="Ins" src="Imagenes/ins.png" width="100px" height="100px" alt="Instagram"><br>
+		<img id="Fb" src="Imagenes/fb.png" width="100px" height="100px" alt="Facebook"><br>
+		<img id="Yt" src="Imagenes/yt.png" width="100px" height="100px" alt="Youtube"><br></p>
+	</div>
+	<div id="Pie">
+	</div>
+	</div>
+	</body>
+</html>
