@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Free Tour Carmona </title>
+		<link rel="stylesheet" href="estilocss.css" type="text/css" />
+	</head>
+	
+	<body>
+	<div class="pagina">
+	<div id="Titulo"><h1> Free Tour Carmona </h1>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Tours</a>
+				<ul id="tours">
+					<li><a href="Articulo1.html">Casco antiguo Carmona</a></li>
+					<li><a href="Articulo2.html">Necrópolis Carmona </a></li>
+					<li><a href="Articulo3.html">Tour privado</a></li>
+					<li><a href="Articulo4.html">Visita Sevilla</a></li>
+				</ul></li>
+			<li><a href="">Quienes somos</a></li>
+			<li><a href="Formulario.html">Reserva</a></li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</nav><br>
+	<div id="Texto">
+		<p>Si desea reservar una visita con nosotros, por favor, rellene el siguiente formulario:</p>
+		<table>
+			<form id="formulario" action="mailto:cris.mr1992@gmail.com" method="post">
+			<tr><td><label id="nombre">Nombre y Apellidos:</td> <td><input type="text"  placeholder="Introduzca su nombre y apellidos" required /><span id="obligatorio">* Campos obligatorios</span></tr></td></tr>
+			<tr><td><label id="Email">Email:</td> <td><input type="email"  placeholder= "Introduzca su email" required /><span id="obligatorio">* Campos obligatorios</span></td></tr>
+			<tr><td><label id="Fecha">Fecha: </td> <td><input type="date"  placeholder= "Introduzca la fecha deseada" required /><br><span id="obligatorio">* Campos obligatorios</span></td></tr>
+			<tr><td><label id="Tour">Tour deseado: </td> <td>
+					<div><input type="radio" value="Tour Carmona" > <label for="Tour Casco Antiguo de Carmona">Tour Casco Antiguo de Carmona</label></div>
+				<div><input type="radio" value="Necrópolis" > <label for="Necrópolis">Necrópolis Romana de Carmona</label></div>
+				<div><input type="radio" value="Tour privado Carmona" > <label for="Tour privado Carmona">Tour privado Carmona</label></div>
+				<div><input type="radio" value="Tour Sevilla" > <label for="Tour Sevilla">Tour Sevilla</label></div></td></tr>
+			<tr><td><label id="Horario">Hora deseada: </td> <td>
+				<div><input type="radio" value="9:00" > <label for="9:00">9:00</label></div>
+				<div><input type="radio" value="12:00" > <label for="12:00">12:00</label></div>
+				<div><input type="radio" value="19:00" > <label for="19:00">19:00</label></div></td></tr>	
+			<tr><td><label id="Tlf">Telefono: </td> <td><input type="tel"  placeholder= "Introduzca su numero de telefono" required pattern="([0-9]{9})"/><span id="obligatorio">* Campos obligatorios</span></td></tr>
+			<tr><td><label id="Personas">Número de personas: </td> <td><input type="number" min="1" max="30" required></label><span id="obligatorio">* Campos obligatorios</span></td></tr>
+			<tr><td><input type="reset" value = "Borrar" /> </td> <td><input type="submit" value = "Enviar" /><br></td></tr>
+			<tr><td><p>¡¡Muchas Gracias!!<br> Confirmaremos su reserva por email </p></td></tr></table>
+			<br><br><br><br><br><br>
+			
+		</form>
+	</div>
+	<div id="Lateral">
+		<img id="Tw" src="Imagenes/tw.png" width="100px" height="100px" alt="Twitter"><br>
+		<img id="Ins" src="Imagenes/ins.png" width="100px" height="100px" alt="Instagram"><br>
+		<img id="Fb" src="Imagenes/fb.png" width="100px" height="100px" alt="Facebook"><br>
+		<img id="Yt" src="Imagenes/yt.png" width="100px" height="100px" alt="Youtube"><br></p>
+	</div>
+
+	</div>
+	</body>
+</html>
