@@ -7,6 +7,14 @@ body {
 	text-align: center;
 	
 }
+/*Para cuando exista el banner*/
+#Banner {
+	display: block;
+  margin-left: 30%;
+  margin-right: auto;
+
+}
+
 #Titulo{
 
 			background-color:#8f8d16;
@@ -24,16 +32,9 @@ body {
 			font-size: 10px;
 					
 }
-.descripcion{
-			width:100%;
-			height:15%;
-			right:0;
-			left:0;
-			bottom:auto;
-			text-align: center;
-			text-transform: none;
-			font-weight: normal;
-}
+
+/*Aqui empieza el estilo del menú
+Menú horizontal con desplegable en los tours*/
 #menu {
             width:100%;
 			height:20%;
@@ -68,6 +69,8 @@ ul{
 #menu li a:hover {
             background-color:#58570d;
 }
+
+/*Estilo tours, el menú desplegable*/
 #tours{
 	display:none;
 	position:absolute;
@@ -80,6 +83,8 @@ ul{
 	
 	
 }
+
+/*Estilo texto general*/
 #Texto{
 	position:absolute;
 	width:80%;
@@ -99,39 +104,35 @@ ul{
 	font-size: medium;
 			
 }
-
+/*Titulo del texto*/
+.Titulo {
+	margin-left: 22%;
+	margin-right: auto;
+}
 #info {
 
 	font-weight:lighter;
 	font-size: medium;
 }
 
+/*Fotos de los tours*/
 #Carmo, #Necropolis, #Privada, #Sevilla{
 	border-radius: 50%;
 }
 
-#Banner {
-	display: block;
-  margin-left: 30%;
-  margin-right: auto;
-
-}
+/*RRSS*/
 #Tw, #Fb, #Yt {
 	border-radius: 50%;
 }
-#Tw, #Fb, #Yt, #Ins, #Huellas {
+#Tw, #Fb, #Yt, #Ins {
 	margin-left: auto;
 }
-
 
 .Redes {
 	margin-left: 10%;
 }
-.Titulo {
-	margin-left: 22%;
-	margin-right: auto;
-}
 
+/*Formulario*/
 #formulario {
 	width:100%;
 	margin-left: 5%;
@@ -163,6 +164,7 @@ form input{
 	
 }
 
+/*Lateral para RRSS, seguramente vaya fuera*/
 #Lateral{
 	width:15%;
 	position:absolute;
@@ -175,6 +177,8 @@ form input{
 
 	
 }
+
+/*Pie por si acaso*/
 #Pie{
 	width:100%;
 	position:fixed;
